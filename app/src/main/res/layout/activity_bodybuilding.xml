@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Bodybuilding"
+    android:background="@drawable/black_wall">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <TextView
+            android:id="@+id/titleBodyBuild"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="65dp"
+            android:layout_marginTop="80dp"
+            android:fontFamily="@font/airstrike"
+            android:text="@string/your_string2"
+            android:textColor="?android:attr/colorActivatedHighlight"
+            android:textSize="40dp">
+
+        </TextView>
+
+        <ImageView
+            android:id="@+id/image1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/titleBodyBuild"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="-52dp"
+            android:layout_marginRight="10dp"
+            android:src="@drawable/muscles">
+
+
+        </ImageView>
+
+        <TextView
+            android:id="@+id/text1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/image1"
+            android:layout_marginTop="-55dp"
+            android:text="Bodybuilding is the use of progressive resistance exercise to control and develop one's muscles (muscle building) by muscle hypertrophy for aesthetic purposes.
+It is distinct from similar activities such as powerlifting because it focuses on physical appearance instead of strength.
+An individual who engages in this activity is referred to as a bodybuilder.
+In professional bodybuilding, competitors appear in lineups and perform specified poses (and later individual posing routines) for a panel of judges who rank them based on symmetry, muscularity, size, conditioning, posing, and stage presentation."
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="23dp"
+            android:layout_marginBottom="20dp"
+            android:textStyle="bold|italic" >
+
+        </TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Bodybuilders prepare for competitions through the elimination of nonessential body fat, enhanced at the last stage by a combination of extracellular dehydration and carbo-loading, to achieve maximum muscular definition and vascularity;
+they also tan and shave to accentuate the contrast of their skin under the spotlights."
+            android:id="@+id/text2"
+            android:layout_below="@id/text1"
+            android:layout_marginTop="-20dp"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="23dp"
+            android:layout_marginBottom="20dp"
+            android:textStyle="bold|italic">
+
+
+        </TextView>
+
+        <pl.droidsonroids.gif.GifImageView
+            android:id="@+id/image2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/text2"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="20dp"
+            android:src="@drawable/liftingg">
+
+        </pl.droidsonroids.gif.GifImageView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/text3"
+            android:layout_below="@+id/image2"
+            android:text="A bodybuilder performs the incline dumbbell press. Bodybuilding takes a great amount of effort and time to reach the desired results. A bodybuilder might first be able to gain 8–20 pounds (4–9 kg) of muscle per year, if lifting for seven hours on a weekly basis. However, gains begin to slow down after the first two years to about 5-15 pounds (2-7 kg). After five years, gains can decrease to just 3-10 pounds (1-5 kg)."
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="23dp"
+            android:layout_marginBottom="20dp"
+            android:textStyle="bold|italic">
+
+        </TextView>
+
+        <pl.droidsonroids.gif.GifImageView
+            android:id="@+id/image3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/text3"
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="100dp"
+            android:layout_marginBottom="5dp"
+            android:src="@drawable/women">
+
+        </pl.droidsonroids.gif.GifImageView>
+
+        <pl.droidsonroids.gif.GifImageView
+            android:id="@+id/image4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/image3"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="-50dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="20dp"
+            android:src="@drawable/shoulder">
+
+        </pl.droidsonroids.gif.GifImageView>
+
+    </RelativeLayout>
+
+</ScrollView>

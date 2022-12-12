@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/aqua"
+    tools:context=".WaterActivity">
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:id="@+id/titleSwim"
+        android:layout_height="wrap_content"
+        android:text="@string/your_string"
+        android:textColor="@android:color/holo_blue_dark"
+        android:textSize="30dp"
+        android:fontFamily="@font/airstrike"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="80dp">
+
+    </TextView>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:id="@+id/image1"
+        android:layout_height="wrap_content"
+        android:src="@drawable/swimming"
+        android:layout_below="@id/titleSwim"
+        android:layout_marginTop="-25dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        >
+    </ImageView>
+
+    <TextView
+        android:id="@+id/text1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/image1"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="-10dp"
+        android:layout_marginRight="10dp"
+        android:fontFamily="@font/alfa_slab_one"
+        android:text="Is the performance of aerobic exercise in water such as in a swimming pool.
+It is done mostly vertically and without swimming typically in waist deep or deeper water.
+Water aerobics is a form of aerobic exercise that requires water-immersed participants.
+Most water aerobics is in a group fitness class setting with a trained professional teaching for about an hour.
+The classes focus on aerobic endurance, resistance training, and creating an enjoyable atmosphere with music.
+Different forms of water aerobics include: aqua Zumba, water yoga, aqua aerobics, and aqua jog."
+        android:textAlignment="center"
+
+        android:textColor="@color/white"
+        android:textSize="20dp">
+
+    </TextView>
+
+
+
+    <pl.droidsonroids.gif.GifImageView
+        android:id="@+id/image2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/text1"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="20dp"
+        android:src="@drawable/giphy">
+
+    </pl.droidsonroids.gif.GifImageView>
+
+    <TextView
+        android:id="@+id/text2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/image2"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="-10dp"
+        android:layout_marginRight="10dp"
+        android:fontFamily="@font/alfa_slab_one"
+        android:text="While similar to land aerobics, in that it focuses on cardiac training,
+water aerobics differs in that it adds the component of water resistance and buoyancy.
+Although heart rate does not increase as much as in land-based aerobics, the heart is working just as hard and underwater exercise actually pumps more blood to the heart.
+Exercising in the water is not only aerobic, but also strength-training oriented due to the water resistance.
+Moving your body through the water creates a resistance that will activate muscle groups.
+Hydro aerobics is a form of an aerobic exercise that requires water-immersed participants."
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="20dp">
+
+
+    </TextView>
+
+    <pl.droidsonroids.gif.GifImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/image3"
+        android:layout_below="@id/text2"
+        android:src="@drawable/gify2"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginBottom="10dp"
+        >
+
+
+    </pl.droidsonroids.gif.GifImageButton>
+
+
+</RelativeLayout>
+
+
+</ScrollView>
+

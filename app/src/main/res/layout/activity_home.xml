@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/black_wall"
+    tools:context=".HomeActivity">
+
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="92dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="443dp"
+        android:fontFamily="@font/averia_gruesa_libre"
+        android:text="OUR ACTIVITIES"
+        android:textColor="@android:color/holo_orange_light"
+        android:textSize="30dp"
+        app:layout_constraintBottom_toTopOf="@+id/buttonn1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
+
+    </TextView>
+
+    <ImageView
+        android:id="@+id/khonaaa"
+        android:layout_width="0dp"
+        android:layout_height="522dp"
+        android:layout_below="@+id/title"
+        android:src="@drawable/pushups"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="-20dp">
+
+
+    </ImageView>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/buttonn1"
+        android:layout_width="300dp"
+        android:layout_height="0dp"
+        android:layout_below="@id/khonaaa"
+        android:layout_marginEnd="56dp"
+        android:layout_marginBottom="360dp"
+        android:background="@android:color/transparent"
+        android:fontFamily="@font/airstrike"
+        android:onClick="WaterActivity"
+        android:text="@string/your_string"
+        android:textColor="@android:color/holo_blue_dark"
+        android:textSize="30dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+    </androidx.appcompat.widget.AppCompatButton>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/buttonn2"
+        android:layout_width="300dp"
+        android:layout_height="79dp"
+        android:layout_below="@id/buttonn1"
+        android:layout_marginEnd="56dp"
+        android:layout_marginBottom="260dp"
+        android:background="@android:color/transparent"
+        android:fontFamily="@font/airstrike"
+        android:onClick="Bodybuilding"
+        android:text="@string/your_string2"
+        android:textColor="?android:attr/colorActivatedHighlight"
+        android:textSize="30dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+    </androidx.appcompat.widget.AppCompatButton>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/buttonn3"
+        android:layout_width="300dp"
+        android:layout_height="0dp"
+        android:layout_below="@id/buttonn2"
+        android:layout_marginEnd="56dp"
+        android:layout_marginBottom="192dp"
+        android:background="@android:color/transparent"
+        android:fontFamily="@font/airstrike"
+        android:onClick="yoga_testpage"
+        android:text="@string/your_string3"
+        android:textColor="@color/design_default_color_error"
+        android:textSize="30dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+    </androidx.appcompat.widget.AppCompatButton>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/buttonn4"
+        android:layout_width="300dp"
+        android:layout_height="79dp"
+        android:layout_below="@id/buttonn3"
+        android:layout_marginEnd="56dp"
+        android:layout_marginBottom="100dp"
+        android:background="@android:color/transparent"
+        android:fontFamily="@font/airstrike"
+        android:onClick="yoga3"
+        android:text="@string/your_string4"
+        android:textColor="@android:color/holo_green_light"
+        android:textSize="30dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+    </androidx.appcompat.widget.AppCompatButton>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

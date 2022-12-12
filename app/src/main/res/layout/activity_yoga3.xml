@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".yoga3"
+    android:background="@drawable/black_wall">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <TextView
+            android:id="@+id/titleBodyBuild"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="130dp"
+            android:layout_marginTop="80dp"
+            android:fontFamily="@font/airstrike"
+            android:text="@string/your_string4"
+            android:textSize="50dp"
+            android:textColor="@android:color/holo_green_light">
+
+        </TextView>
+
+
+
+        <TextView
+            android:id="@+id/text1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/titleBodyBuild"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="20dp"
+            android:text="Yoga is an ancient practice that involves physical poses, concentration, and deep breathing.
+A regular yoga practice can promoteTrusted Source endurance, strength, calmness, flexibility, and well-being.
+Yoga is now a popular form of exercise around the world. According to a 2017 national surveyTrusted Source, one in seven adults in the United States practiced yoga in the past 12 months.
+"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="23dp"
+            android:textStyle="bold|italic">
+
+        </TextView>
+
+
+        <TextView
+            android:id="@+id/text5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/text1"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="20dp"
+            android:text="According to a 2012 surveyTrusted Source, 94% of adults who practice yoga do so for wellness reasons.
+Yoga has many physical and mental benefits:
+building muscle strength
+enhancing flexibility
+promoting better breathing
+supporting heart health
+helping with treatment for addiction
+reducing stress, anxiety, depression, and chronic pain
+improving sleep
+enhancing overall well-being and quality of life
+It is advisable to consult a medical professional, if possible, before starting a yoga practice."
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="23dp"
+            android:textStyle="bold|italic">
+        </TextView>
+
+
+    </RelativeLayout>
+
+</ScrollView>

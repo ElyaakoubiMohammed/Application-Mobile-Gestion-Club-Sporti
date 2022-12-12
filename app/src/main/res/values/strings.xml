@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">TEST 3</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="your_string"><u>Water Aerobics</u></string>
+    <string name="your_string2"><u>BodyBuilding</u></string>
+    <string name="your_string3"><u>Cardio</u></string>
+    <string name="your_string4"><u>Yoga</u></string>
+    <string name="your_string5"><u>Our Schedule</u></string>
+</resources>
